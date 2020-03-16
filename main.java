@@ -19,8 +19,7 @@ public class main {
     // based on the length of strings without duplicates 
     public static void map(String s1, String s2) {
         int countS1 = checkDuplicate(s1);
-        int countS2 = checkDuplicate(s2);
-        if (countS1 >= countS2){ //when the length of s1 without duplicates is bigger or equal to length of s2, strings can be mapped 
+        if (countS1 == s2.length()){ //when the length of the s1 without duplicates equals to length of s2 strings can be mapped
             System.out.println(true);
         }
         else {
